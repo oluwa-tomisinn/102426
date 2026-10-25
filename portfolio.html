@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Josephine — Product Designer Portfolio">
+  <title>Josephine | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+<header class="site-header">
+  <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+
+  <nav class="nav-links" aria-label="Main navigation">
+    <a href="index.html#home">Home</a>
+    <a href="index.html#about">About</a>
+    <a href="index.html#services">Services</a>
+    <a href="index.html#experience">Experience</a>
+    <a href="resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+    <a class="active" href="portfolio.html">Portfolio</a>
+    <a href="index.html#contact">Contact</a>
+  </nav>
+</header>
+
+  <main id="home">
+    <section class="portfolio-section" id="portfolio">
+      <div class="section-wrap">
+        <h1>Lets have a look at my <span>Portfolio</span></h1>
+        <div class="filters" role="group" aria-label="Filter portfolio projects">
+          <button class="filter active" data-filter="all">All</button>
+          <button class="filter" data-filter="landing">Landing Page</button>
+          <button class="filter" data-filter="web">Web App</button>
+          <button class="filter" data-filter="mobile">Mobile App</button>
+          <button class="filter" data-filter="social">Social Media Design</button>
+          <button class="filter" data-filter="website">Website</button>
+        </div>
+
+        <div class="portfolio-grid">
+          <article class="project-card" data-category="web">
+            <div class="project-image"><img src="images/VnitPay-svg.svg" alt="Vnitpay business expenses website"><a href="https://vnitpay.com/" class="project-arrow" aria-label="View Vnitpay project">↗</a></div>
+          </article>
+          <article class="project-card" data-category="landing">
+            <div class="project-image"><img src="images/Turnifydash.svg" alt="Turnify queue management website"><a href="https://turnifyng.com/" class="project-arrow" aria-label="View Turnify project">↗</a></div>
+          </article>
+          <article class="project-card" data-category="web">
+            <div class="project-image"><img src="images/Pmsdash.svg" alt="Performance management dashboard"><a href="https://www.behance.net/gallery/242302259/PMS-360-Performance-Management-System" class="project-arrow" aria-label="View performance dashboard project">↗</a></div>
+          </article>
+          <article class="project-card" data-category="website">
+            <div class="project-image"><img src="images/4thdash.svg" alt="Automotive website design"><a href="https://www.behance.net/gallery/240288593/ApexDrive-Landing-Page?platform=direct" class="project-arrow" aria-label="View automotive website project">↗</a></div>
+          </article>
+          <article class="project-card" data-category="web">
+            <div class="project-image"><img src="images/Daily4k.svg" alt="Analytics dashboard design"><a href="https://www.behance.net/gallery/227533647/Saas-Web-App-%28Case-Study%29?platform=direct" class="project-arrow" aria-label="View analytics dashboard project">↗</a></div>
+          </article>
+          <article class="project-card" data-category="landing">
+            <div class="project-image"><img src="images/6thdash.svg" alt="Beauty and skincare landing page"><a href="https://www.behance.net/gallery/241012333/Deep-Serenity-Luxe-Femme-Luxury-Landing-Page" class="project-arrow" aria-label="View beauty landing page project">↗</a></div>
+          </article>
+          <article class="project-card" data-category="mobile">
+            <div class="project-image"><img src="images/7th dash.svg" alt="Mobile app screens"><a href="https://www.behance.net/gallery/238736991/Luma-20-Next-Gen-AI-Wellness-App" class="project-arrow" aria-label="View mobile app project">↗</a></div>
+          </article>
+          <article class="project-card" data-category="social">
+            <div class="project-image"><img src="images/branding.svg" alt="Social media and campaign design collection"><a href="https://drive.google.com/drive/folders/1ElxaJmPK6cukbc6M8k-cw7_W4TNMWXkt?usp=sharing" class="project-arrow" aria-label="View social media design project">↗</a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="project-cta" id="resume">
+      <div class="cta-inner">
+        <h2>Have an Awesome Project<br>Idea? <span>Let’s Discuss</span></h2>
+        <form class="project-form whatsapp-form" id="project-form">
+          <span class="mail-icon" aria-hidden="true">✉</span>
+          <label class="sr-only" for="project-details">Project details</label>
+          <input id="project-details" name="project" placeholder="Tell me about your project" required>
+          <button type="submit">Send</button>
+        </form>
+        <p class="form-feedback" aria-live="polite"></p>
+        <div class="cta-badges">
+          <span>✦ 50+ Brands Designed</span>
+          <span>▣ 100+ Projects Completed</span>
+          <span>✹ Certified Product Designer</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <div class="footer-inner">
+      <div class="footer-top">
+        <h2>Lets Connect there</h2>
+        <a class="hire-button" href="https://wa.me/2349034829116?text=Hi%2C%20I%20would%20like%20to%20discuss%20a%20project.%20I%20found%20you%20from%20your%20website." target="_blank" rel="noopener noreferrer">Hire me ↗</a>
+      </div>
+      <div class="footer-divider"></div>
+      <div class="footer-grid">
+        <div class="footer-intro">
+          <p>I design intuitive interfaces, compelling visuals, and engaging videos that help brands communicate better and connect deeper.</p>
+          <div class="socials">
+            <a href="https://www.linkedin.com/in/josephine-taiwo-8732781a4/" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"><img src="images/link.webp" alt=""></a>
+            <a href="https://www.behance.net/josetmeghan" aria-label="Behance" target="_blank" rel="noopener noreferrer"><img src="images/behance.webp" alt=""></a>
+            <a href="https://wa.me/2349034829116" aria-label="WhatsApp" target="_blank" rel="noopener noreferrer"><img src="images/wa.png" alt=""></a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h3>Navigation</h3>
+          <a href="index.html#home">Home</a><a href="index.html#about">About Us</a><a href="index.html#services">Service</a><a href="resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a><a href="portfolio.html#portfolio">Project</a>
+        </div>
+        <div class="footer-contact">
+          <h3>Contact</h3>
+          <a href="tel:09034829116">09034829116</a>
+          <a href="mailto:josetmeghan@gmail.com">josetmeghan@gmail.com</a>
+        </div>
+        <div class="footer-newsletter">
+          <h3>Do you have a project?</h3>
+          <form class="newsletter-form whatsapp-form">
+            <input name="project" aria-label="Project details" placeholder="Project details" required>
+            <button type="submit" aria-label="Send project details to WhatsApp">➤</button>
+          </form>
+          <p class="form-feedback" aria-live="polite"></p>
+        </div>
+      </div>
+      <div class="footer-bottom"></div>
+    </div>
+  </footer>
+  <script src="portfolio.js"></script>
+  <script src="whatsapp.js"></script>
+</body>
+</html>
